@@ -1,30 +1,15 @@
 body{
+  font-family: Arial;
   margin:0;
-  font-family:Arial;
-}
-
-nav{
-  background:#333;
-  color:white;
-  padding:15px;
-}
-
-.hero{
   text-align:center;
-  padding:60px;
-  background:#f4f4f4;
 }
 
-.features{
-  display:flex;
-  justify-content:space-around;
+header{
+  background:#222;
+  color:white;
   padding:40px;
 }
 
-/* Responsive */
-@media(max-width:768px){
-  .features{
-    flex-direction:column;
-    text-align:center;
-  }
+section{
+  padding:30px;
 }

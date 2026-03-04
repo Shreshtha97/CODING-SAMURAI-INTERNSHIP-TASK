@@ -13,3 +13,8 @@ header{
 section{
   padding:30px;
 }
+.projects {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
